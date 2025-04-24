@@ -21,35 +21,80 @@
       a:active {
         text-decoration: underline;
       }
-      .container {
-        background-color: rgb(125, 145, 210);
+      .containers {
+        background-color: rgb(49, 117, 111);
         align-content: center;
       }
       body {
         font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
           "Lucida Sans", Arial, sans-serif;
+        background-color: rgb(230, 217, 217);
       }
-
       .banner-img {
         width: 80%;
-        height: 300px;
+        height: auto;
         border-radius: 10px;
-        margin-left: 10%;
+        margin: auto;
       }
+
+      
     </style>
   </head>
   <body>
-    <nav class="container d-flex flex-column mt-0 rounded-5">
+    <nav class="containers d-flex flex-column mt-0 rounded-5">
       <ul class="row list-unstyled d-flex justify-content-center mt-3">
-        <li class="col-6 col-md-2 text-center"><a href="">About me</a></li>
-        <li class="col-6 col-md-2 text-center"><a href="">Contact me</a></li>
-        <li class="col-6 col-md-2 text-center"><a href="">My projects</a></li>
-        <li class="col-6 col-md-2 text-center"><a href="">My skills</a></li>
+        <li class="col-8 col-md-2 text-center"><a href="">About me</a></li>
+        <li class="col-8 col-md-2 text-center"><a href="">Contact me</a></li>
+        <li class="col-8 col-md-2 text-center"><a href="">My projects</a></li>
+        <li class="col-8 col-md-2 text-center"><a href="">My skills</a></li>
       </ul>
     </nav>
 
-    
+    <div class="container d-flex flex-column mt-1 rounded-0">
+      <h1 class="text-center mt-3">Welcome to my portfolio</h1>
+      <img src="photos/banner-img.jfif" alt="Banner Image" class="banner-img" />
+      <p class="text-center mt-3">
+        Hello! I'm a web developer with a passion for creating beautiful and
+        functional websites. Check out my <a href="">projects</a> and
+        <a href="">skills</a> below.
+      </p>
+    </div>
 
+    <div class="container d-flex flex-column mt-1 rounded-0">
+      <h1 class="text-center mt-3">My Projects</h1>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="photos/project1.jpg" alt="Project 1" class="img-fluid" />
+          <p>Project 1 Description</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="photos/project2.jpg" alt="Project 2" class="img-fluid" />
+          <p>Project 2 Description</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="photos/project3.jpg" alt="Project 3" class="img-fluid" />
+          <p>Project 3 Description</p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    <footer class="containers d-flex flex-column mt-10 rounded-5">
+      <ul class="row list-unstyled d-flex justify-content-center mt-3">
+        <li class="col-9 col-md-3 text-center"><a href="">LinkedIn</a></li>
+        <li class="col-9 col-md-3 text-center"><a href="">GitHub</a></li>
+        <li class="col-9 col-md-3 text-center"><a href="">Instagram</a></li>
+      </ul>
+    </footer>
+
+
+
+    
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
